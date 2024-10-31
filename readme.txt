@@ -24,7 +24,7 @@ git push --force --set-upstream origin main
 
 https://flask-hello-world-rv7g.vercel.app/api/greet
 
-curl -X POST https://flask01-4xl914ykx-jasonmmvs-projects.vercel.app/api/greet -H "Content-Type: application/json" -d '{"name": "Alice", "age": 30}'
+curl -X POST https://flask01-346s-ik8drp32i-jasonmmvs-projects.vercel.app/api/greet -H "Content-Type: application/json" -d '{"name": "Alice", "age": 30}'
 
 https://flask-hello-world-rv7g-3nt7umt20-jasonmmvs-projects.vercel.app
 

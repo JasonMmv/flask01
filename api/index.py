@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # POST 방식으로 두 개의 파라미터를 처리하는 API 엔드포인트
-@app.route('/api/greet', methods=['POST'])
+@app.route('/api/greet', methods=['GET'])
 def greet():
     
     # 요청의 JSON 데이터를 가져옵니다.
